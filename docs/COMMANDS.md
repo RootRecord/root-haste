@@ -6,7 +6,7 @@
 |---------|-------------|------------|-------|
 | `/torch` | Light a torch for Gold (default mode), or view the longest burn record | `` | `/torch [longest/price/reload]` |
 | `/torchpass` | Pass the torch to another online player | `` | `/torchpass <player>` |
-| `/joint` | Light a joint for Gold (requires unlock-joint: true), or view the longest burn record | `` | `/joint [longest/price/reload]` |
+| `/joint` | Light a joint for Gold when unlock-joint is enabled, or view the longest burn record | `` | `/joint [longest/price/reload]` |
 | `/pass` | Pass the active torch/joint to another online player | `` | `/pass <player>` |
 
 ## Permissions

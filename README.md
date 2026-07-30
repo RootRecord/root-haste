@@ -5,7 +5,7 @@ Pass-the-torch / pass-the-joint minigame â€” torch by default; unlock-joint
 | Field | Value |
 |-------|-------|
 | **Folder / artifact** | `root-haste` |
-| **Version** | `1.9.0` |
+| **Version** | `1.7.12` |
 | **Bukkit name** | `Root-Haste` |
 | **Paper API** | `26.1` |
 | **Author** | Root Record |
@@ -22,7 +22,7 @@ When the BuiltByBit product is live, this section will link directly to the paid
 
 ## Install
 
-1. Purchase / download `root-haste-1.9.0.jar` from BuiltByBit (coming soon) or your licensed RootMC distribution channel.
+1. Purchase / download `root-haste-1.7.12.jar` from BuiltByBit (coming soon) or your licensed RootMC distribution channel.
 2. Install **[Root-Core](https://github.com/RootRecord/root-core)** first when required (license/cloud spine for the suite).
 3. Remove any older `root-haste-*.jar` from `plugins/`.
 4. Drop the new jar into `plugins/` and restart (or use Root-Core suite updater when this plugin is on your licensed manifest).
@@ -51,7 +51,7 @@ This module depends on `rootrecord-common` inside the monorepo.
 |---------|-------------|
 | `/torch` | Light a torch for Gold (default mode), or view the longest burn record |
 | `/torchpass` | Pass the torch to another online player |
-| `/joint` | Light a joint for Gold (requires unlock-joint: true), or view the longest burn record |
+| `/joint` | Light a joint for Gold when unlock-joint is enabled, or view the longest burn record |
 | `/pass` | Pass the active torch/joint to another online player |
 
 Full command and permission tables: [docs/COMMANDS.md](docs/COMMANDS.md).
